@@ -1,0 +1,84 @@
+.list-page-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.vertical-line {
+  border-left: 1px solid gainsboro;
+  align-self: center;
+  height: 250px;
+}
+
+.btn-fa {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  width: 300px;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-self: center;
+  column-gap: 30px;
+  border-radius: 32px;
+}
+
+.btn-fa:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-self: center;
+}
+
+.line {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  width: 500px;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-self: center;
+  row-gap: 50px;
+  border-radius: 32px;
+}
+
+.patientLine:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.single-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info {
+  width: 300px;
+  height: fit-content;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+input {
+  display: "flex";
+  justify-content: "space-evenly";
+  width: "400px";
+}
+
+#left {
+  flex-grow: 1;
+}
+
+#right {
+  flex-grow: 5;
+  overflow: auto;
+}
